@@ -5,21 +5,39 @@
 [![Author: Vijay Mahes](https://img.shields.io/badge/Author-Vijay%20Mahes-amber.svg)](https://github.com/vijaymahes9080)
 [![Version: 2.5 Next-Gen](https://img.shields.io/badge/Version-2.5%20Next--Gen-10b981.svg)](https://github.com/vijaymahes9080/GreenScore)
 [![Theme: Dual Light/Dark](https://img.shields.io/badge/Theme-Dual%20Light%2FDark-84cc16.svg)](https://github.com/vijaymahes9080/GreenScore)
+[![LinkedIn Kit: Ready](https://img.shields.io/badge/LinkedIn%20Kit-Ready-0077b5.svg)](LINKEDIN_POST.md)
 [![Commits: 10+ Commits](https://img.shields.io/badge/GitHub%20Activity-10%2B%20Commits-06b6d4.svg)](https://github.com/vijaymahes9080/GreenScore)
 
-**GreenScore** is an enterprise-grade **Sustainability OS** that transforms personal environmental tracking into a comprehensive, multi-tiered ecosystem spanning **IoT Smart Home Automation**, **University Campus Rankings**, **Corporate ESG Reporting**, **Municipal City Dashboards**, **Cryptographic Carbon Credit NFT Ledgers**, **2030 Climate AI Simulators**, **Spatial Thermal AR Heatmaps**, **Developer API Sandboxes**, **Voice AI Command Centers**, and **Dual Light/Dark Theme Styling**.
+**GreenScore** is an enterprise-grade **Sustainability OS & Climate Tech Platform** that unifies personal eco-action, **IoT Smart Home Telemetry**, **University Campus Rankings**, **Corporate Scope 1-3 ESG Decarbonization**, **Municipal City Dashboards**, **Cryptographic Carbon Credit NFT Ledgers**, **2030 Climate AI Simulators**, **Spatial Thermal AR Heatmaps**, **Developer API Sandboxes**, **Voice AI Command Centers**, and **Dual Light/Dark Theme Styling**.
 
 ---
 
-## 🖼️ Visual Showcase & Light Theme UI
+## 🖼️ Full Project Showcase (Light Theme)
 
-![GreenScore Light Theme Ecosystem Showcase](https://raw.githubusercontent.com/vijaymahes9080/GreenScore/main/docs/images/greenscore_light_showcase.svg)
+![GreenScore Sustainability OS Light Theme Overview](image.png)
+
+---
+
+## 📱 LinkedIn Carousel & Multi-Image Gallery (Light Theme)
+
+> 💡 *High-resolution 1200x1200px light theme carousel cards ready for LinkedIn document posts and media presentations. See [LINKEDIN_POST.md](LINKEDIN_POST.md) for full copy-paste post templates.*
+
+| Slide 1: Overview & 15-in-1 Platform | Slide 2: Smart Home & ESP32 IoT Grid |
+| :---: | :---: |
+| [![Overview](docs/images/carousel_1_ecosystem_overview.png)](docs/images/carousel_1_ecosystem_overview.png) | [![Smart Home IoT](docs/images/carousel_2_smart_home_iot.png)](docs/images/carousel_2_smart_home_iot.png) |
+| **Slide 3: Enterprise ESG Decarbonization** | **Slide 4: Climate AI 2030, AR & NFTs** |
+| [![Enterprise ESG](docs/images/carousel_3_enterprise_esg.png)](docs/images/carousel_3_enterprise_esg.png) | [![Climate AI & AR](docs/images/carousel_4_climate_ai_ar.png)](docs/images/carousel_4_climate_ai_ar.png) |
+
+<div align="center">
+  <h3>Slide 5: Architecture, Tech Stack & Open Source</h3>
+  <img src="docs/images/carousel_5_tech_impact.png" width="600" alt="Tech Stack and Architecture" />
+</div>
 
 ---
 
 ## 🏛️ Ecosystem Architecture
 
-![GreenScore Ecosystem Architecture](https://raw.githubusercontent.com/vijaymahes9080/GreenScore/main/docs/images/greenscore_architecture.svg)
+![GreenScore Ecosystem Architecture](docs/images/greenscore_architecture.png)
 
 ```text
                                   🌍 GREENCORE SUSTAINABILITY OS
@@ -62,7 +80,7 @@
 - Real-time Air Quality Index (AQI 42 Good) and public EV fast-charging hub status (184 hubs).
 
 ### 📊 5. Automated ESG Reporting Engine
-- GRI and ISSB framework compliant audit disclosure generator with JSON export options.
+- GRI and ISSB framework compliant audit disclosure generator with JSON/CSV/PDF export options.
 
 ### 📡 6. Real-Time IoT Telemetry Stream
 - Live MQTT / WebSocket stream simulation ingesting telemetry logs from physical ESP32 nodes (ACS712, YF-S201, HC-SR04, MQ-135).
@@ -147,6 +165,15 @@ npm run build
 # Preview production build
 npm run preview
 ```
+
+---
+
+## 📢 LinkedIn Post & Promotion Kit
+
+Looking to share this project or post an update on LinkedIn? Check out [`LINKEDIN_POST.md`](LINKEDIN_POST.md) for:
+- Pre-formatted copy-paste LinkedIn posts (Full announcement & Quick pitch).
+- Carousel slide order and caption guide.
+- Complete hashtag and engagement recommendations.
 
 ---
 

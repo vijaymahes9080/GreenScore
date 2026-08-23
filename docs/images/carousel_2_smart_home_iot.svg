@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLight2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(5, 150, 105, 0.08)"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1200" rx="24" fill="url(#bgLight2)" stroke="rgba(5, 150, 105, 0.2)" stroke-width="3"/>
+
+  <!-- Header -->
+  <g transform="translate(60, 60)">
+    <rect width="280" height="42" rx="21" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.3)"/>
+    <text x="140" y="27" text-anchor="middle" fill="#047857" font-family="Arial, sans-serif" font-size="15" font-weight="bold">🏠 SMART HOME &amp; IoT</text>
+
+    <rect x="940" y="0" width="140" height="42" rx="21" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="1010" y="27" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="15" font-weight="bold">02 / 05 • IoT GRID</text>
+
+    <text x="0" y="115" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="bold">Real-Time ESP32 IoT &amp; Smart Energy Grid</text>
+    <text x="0" y="160" fill="#475569" font-family="Arial, sans-serif" font-size="20">Continuous hardware telemetry stream ingesting live inverter and sensor metrics</text>
+  </g>
+
+  <!-- 3 IoT Telemetry Cards -->
+  <g transform="translate(60, 260)">
+    <!-- Card 1: Solar Inverter -->
+    <g transform="translate(0, 0)">
+      <rect width="340" height="360" rx="18" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(5, 150, 105, 0.2)"/>
+      <rect x="25" y="25" width="50" height="50" rx="12" fill="#f0fdf4"/>
+      <text x="50" y="58" text-anchor="middle" font-size="26">☀️</text>
+      <text x="90" y="48" fill="#047857" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Solar Inverter 5kW</text>
+      <text x="90" y="70" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Active Roof Micro-Array</text>
+
+      <line x1="25" y1="95" x2="315" y2="95" stroke="rgba(0,0,0,0.06)"/>
+
+      <text x="25" y="145" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Real-Time Output:</text>
+      <text x="315" y="145" text-anchor="end" fill="#059669" font-family="Arial, sans-serif" font-size="24" font-weight="bold">4.8 kW</text>
+
+      <text x="25" y="195" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Daily Yield:</text>
+      <text x="315" y="195" text-anchor="end" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">18.2 kWh</text>
+
+      <text x="25" y="245" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Grid Export:</text>
+      <text x="315" y="245" text-anchor="end" fill="#0891b2" font-family="Arial, sans-serif" font-size="18" font-weight="bold">+6.4 kWh</text>
+
+      <rect x="25" y="285" width="290" height="48" rx="10" fill="#f0fdf4" stroke="rgba(5, 150, 105, 0.2)"/>
+      <text x="170" y="315" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="13" font-weight="bold">⚡ Self-Sufficiency: 82% Optimal</text>
+    </g>
+
+    <!-- Card 2: Smart AC Load -->
+    <g transform="translate(370, 0)">
+      <rect width="340" height="360" rx="18" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(8, 145, 178, 0.2)"/>
+      <rect x="25" y="25" width="50" height="50" rx="12" fill="#ecfeff"/>
+      <text x="50" y="58" text-anchor="middle" font-size="26">❄️</text>
+      <text x="90" y="48" fill="#0891b2" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Smart AC System</text>
+      <text x="90" y="70" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Living Room Inverter Unit</text>
+
+      <line x1="25" y1="95" x2="315" y2="95" stroke="rgba(0,0,0,0.06)"/>
+
+      <text x="25" y="145" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Current Draw:</text>
+      <text x="315" y="145" text-anchor="end" fill="#0891b2" font-family="Arial, sans-serif" font-size="24" font-weight="bold">1.4 kW</text>
+
+      <text x="25" y="195" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Target Temp:</text>
+      <text x="315" y="195" text-anchor="end" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">24°C (Eco-Mode)</text>
+
+      <text x="25" y="245" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Duty Cycle:</text>
+      <text x="315" y="245" text-anchor="end" fill="#059669" font-family="Arial, sans-serif" font-size="18" font-weight="bold">42% Efficient</text>
+
+      <rect x="25" y="285" width="290" height="48" rx="10" fill="#ecfeff" stroke="rgba(8, 145, 178, 0.2)"/>
+      <text x="170" y="315" text-anchor="middle" fill="#0891b2" font-family="Arial, sans-serif" font-size="13" font-weight="bold">🌡️ Auto-Modulation Active</text>
+    </g>
+
+    <!-- Card 3: Water & Air Quality -->
+    <g transform="translate(740, 0)">
+      <rect width="340" height="360" rx="18" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(245, 158, 11, 0.2)"/>
+      <rect x="25" y="25" width="50" height="50" rx="12" fill="#fef3c7"/>
+      <text x="50" y="58" text-anchor="middle" font-size="26">💧</text>
+      <text x="90" y="48" fill="#b45309" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Water &amp; Air Sensing</text>
+      <text x="90" y="70" fill="#64748b" font-family="Arial, sans-serif" font-size="13">YF-S201 &amp; MQ-135 Sensors</text>
+
+      <line x1="25" y1="95" x2="315" y2="95" stroke="rgba(0,0,0,0.06)"/>
+
+      <text x="25" y="145" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Water Flow Rate:</text>
+      <text x="315" y="145" text-anchor="end" fill="#0891b2" font-family="Arial, sans-serif" font-size="24" font-weight="bold">4.2 L/min</text>
+
+      <text x="25" y="195" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Daily Water Usage:</text>
+      <text x="315" y="195" text-anchor="end" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">128 Liters (Optimal)</text>
+
+      <text x="25" y="245" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Indoor AQI:</text>
+      <text x="315" y="245" text-anchor="end" fill="#059669" font-family="Arial, sans-serif" font-size="18" font-weight="bold">28 (Pure / Clean)</text>
+
+      <rect x="25" y="285" width="290" height="48" rx="10" fill="#fef3c7" stroke="rgba(245, 158, 11, 0.2)"/>
+      <text x="170" y="315" text-anchor="middle" fill="#b45309" font-family="Arial, sans-serif" font-size="13" font-weight="bold">🚰 Leak Detection: 0 Leaks</text>
+    </g>
+  </g>
+
+  <!-- AI Smart Nudge & Hardware Architecture -->
+  <g transform="translate(60, 660)">
+    <rect width="1080" height="380" rx="20" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(16, 185, 129, 0.2)"/>
+    
+    <!-- AI Nudge Banner -->
+    <g transform="translate(40, 35)">
+      <rect width="1000" height="85" rx="14" fill="rgba(245, 158, 11, 0.12)" stroke="rgba(245, 158, 11, 0.3)"/>
+      <text x="30" y="36" fill="#b45309" font-family="Arial, sans-serif" font-size="16" font-weight="bold">🧠 AI Real-Time Behavioral Nudge System</text>
+      <text x="30" y="62" fill="#475569" font-family="Arial, sans-serif" font-size="14">
+        "Raising AC thermostat by +1°C during peak solar grid hours cuts ~4.2 kWh/day and boosts GreenScore by +2.4 points."
+      </text>
+    </g>
+
+    <!-- Physical Hardware Stream Box -->
+    <g transform="translate(40, 150)">
+      <text x="0" y="24" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">📡 Physical ESP32 Hardware Integration Pipeline</text>
+      <text x="0" y="52" fill="#64748b" font-family="Arial, sans-serif" font-size="14">
+        Direct telemetry ingestion via WebSocket and MQTT streams simulating micro-controller hardware:
+      </text>
+
+      <g transform="translate(0, 80)">
+        <rect x="0" y="0" width="230" height="80" rx="10" fill="#f0fdf4" stroke="rgba(5, 150, 105, 0.2)"/>
+        <text x="15" y="28" fill="#047857" font-family="Arial, sans-serif" font-size="13" font-weight="bold">ACS712 Current Sensor</text>
+        <text x="15" y="55" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Hall-effect electrical load</text>
+
+        <rect x="255" y="0" width="230" height="80" rx="10" fill="#ecfeff" stroke="rgba(8, 145, 178, 0.2)"/>
+        <text x="270" y="28" fill="#0891b2" font-family="Arial, sans-serif" font-size="13" font-weight="bold">YF-S201 Water Flow</text>
+        <text x="270" y="55" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Pulse-based turbine rate</text>
+
+        <rect x="510" y="0" width="230" height="80" rx="10" fill="#fef3c7" stroke="rgba(245, 158, 11, 0.2)"/>
+        <text x="525" y="28" fill="#b45309" font-family="Arial, sans-serif" font-size="13" font-weight="bold">MQ-135 Gas &amp; AQI</text>
+        <text x="525" y="55" fill="#64748b" font-family="Arial, sans-serif" font-size="12">CO2, NH3 &amp; smoke index</text>
+
+        <rect x="765" y="0" width="235" height="80" rx="10" fill="#f8fafc" stroke="rgba(0, 0, 0, 0.1)"/>
+        <text x="780" y="28" fill="#334155" font-family="Arial, sans-serif" font-size="13" font-weight="bold">ESP32 Core Micro</text>
+        <text x="780" y="55" fill="#64748b" font-family="Arial, sans-serif" font-size="12">WiFi &amp; TLS secure socket</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(600, 1120)" text-anchor="middle">
+    <text fill="#64748b" font-family="Arial, sans-serif" font-size="15" font-weight="bold">
+      GreenScore Sustainability OS • Slide 02 of 05 • Swipe to see Enterprise ESG 👉
+    </text>
+  </g>
+</svg>

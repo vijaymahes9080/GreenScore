@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLight4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(5, 150, 105, 0.08)"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1200" rx="24" fill="url(#bgLight4)" stroke="rgba(5, 150, 105, 0.2)" stroke-width="3"/>
+
+  <!-- Header -->
+  <g transform="translate(60, 60)">
+    <rect width="330" height="42" rx="21" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.3)"/>
+    <text x="165" y="27" text-anchor="middle" fill="#047857" font-family="Arial, sans-serif" font-size="15" font-weight="bold">🔮 CLIMATE AI, AR SPATIAL &amp; NFT</text>
+
+    <rect x="940" y="0" width="140" height="42" rx="21" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="1010" y="27" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="15" font-weight="bold">04 / 05 • INNOVATION</text>
+
+    <text x="0" y="115" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="bold">2030 Climate AI, Spatial AR &amp; Web3 Ledger</text>
+    <text x="0" y="160" fill="#475569" font-family="Arial, sans-serif" font-size="20">Next-generation intelligence tools for predictive simulation and spatial energy auditing</text>
+  </g>
+
+  <!-- 3 Big Innovation Cards -->
+  <g transform="translate(60, 240)">
+    <!-- Innovation 1: 2030 Climate Scenario AI -->
+    <g transform="translate(0, 0)">
+      <rect width="1080" height="240" rx="20" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(5, 150, 105, 0.2)"/>
+      <rect x="30" y="30" width="50" height="50" rx="12" fill="#f0fdf4"/>
+      <text x="55" y="63" text-anchor="middle" font-size="26">🔮</text>
+      
+      <text x="95" y="52" fill="#047857" font-family="Arial, sans-serif" font-size="20" font-weight="bold">2030 Climate Scenario AI Engine</text>
+      <text x="95" y="74" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Interactive Policy &amp; Temperature Anomaly Simulator</text>
+
+      <g transform="translate(30, 105)">
+        <rect width="310" height="105" rx="12" fill="#f0fdf4" stroke="rgba(5, 150, 105, 0.15)"/>
+        <text x="15" y="28" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Renewable Grid Share: 65%</text>
+        <text x="15" y="58" fill="#059669" font-family="Arial, sans-serif" font-size="20" font-weight="bold">+1.4°C Target</text>
+        <text x="15" y="88" fill="#047857" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✅ Paris Accord Compliant</text>
+
+        <rect x="350" y="0" width="310" height="105" rx="12" fill="#ecfeff" stroke="rgba(8, 145, 178, 0.15)"/>
+        <text x="365" y="28" fill="#64748b" font-family="Arial, sans-serif" font-size="12">EV Penetration: 50%</text>
+        <text x="365" y="58" fill="#0891b2" font-family="Arial, sans-serif" font-size="20" font-weight="bold">-420 Mt CO2e</text>
+        <text x="365" y="88" fill="#0891b2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">📉 Transportation Decarbonized</text>
+
+        <rect x="700" y="0" width="320" height="105" rx="12" fill="#fef3c7" stroke="rgba(245, 158, 11, 0.15)"/>
+        <text x="715" y="28" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Economic Dividends</text>
+        <text x="715" y="58" fill="#b45309" font-family="Arial, sans-serif" font-size="20" font-weight="bold">$1.4M / Year</text>
+        <text x="715" y="88" fill="#b45309" font-family="Arial, sans-serif" font-size="12" font-weight="bold">💰 Net Energy Efficiency Gain</text>
+      </g>
+    </g>
+
+    <!-- Innovation 2: AR Spatial Thermal Scanner -->
+    <g transform="translate(0, 270)">
+      <rect width="1080" height="240" rx="20" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(8, 145, 178, 0.2)"/>
+      <rect x="30" y="30" width="50" height="50" rx="12" fill="#ecfeff"/>
+      <text x="55" y="63" text-anchor="middle" font-size="26">👁️</text>
+      
+      <text x="95" y="52" fill="#0891b2" font-family="Arial, sans-serif" font-size="20" font-weight="bold">AR Spatial Thermal Scanner &amp; Leak Detector</text>
+      <text x="95" y="74" fill="#64748b" font-family="Arial, sans-serif" font-size="13">HTML5 Canvas Real-Time Thermal Heatmap Camera</text>
+
+      <g transform="translate(30, 105)">
+        <rect width="310" height="105" rx="12" fill="#ecfeff" stroke="rgba(8, 145, 178, 0.15)"/>
+        <text x="15" y="28" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Door Seal Insulation Leak:</text>
+        <text x="15" y="58" fill="#0891b2" font-family="Arial, sans-serif" font-size="18" font-weight="bold">-4.2 kWh Lost / Day</text>
+        <text x="15" y="88" fill="#0891b2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">🚨 Seal Degradation Detected</text>
+
+        <rect x="350" y="0" width="310" height="105" rx="12" fill="#f0fdf4" stroke="rgba(5, 150, 105, 0.15)"/>
+        <text x="365" y="28" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Solar Rooftop Irradiance:</text>
+        <text x="365" y="58" fill="#059669" font-family="Arial, sans-serif" font-size="18" font-weight="bold">98% Peak Yield</text>
+        <text x="365" y="88" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">☀️ Zero Shading Detected</text>
+
+        <rect x="700" y="0" width="320" height="105" rx="12" fill="#f8fafc" stroke="rgba(0, 0, 0, 0.08)"/>
+        <text x="715" y="28" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Indoor Air Density:</text>
+        <text x="715" y="58" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Optimal Circulation</text>
+        <text x="715" y="88" fill="#64748b" font-family="Arial, sans-serif" font-size="12" font-weight="bold">💨 1.2 m/s Airflow</text>
+      </g>
+    </g>
+
+    <!-- Innovation 3: Carbon Credit NFT & Computer Vision -->
+    <g transform="translate(0, 540)">
+      <rect width="1080" height="260" rx="20" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(245, 158, 11, 0.2)"/>
+      <rect x="30" y="30" width="50" height="50" rx="12" fill="#fef3c7"/>
+      <text x="55" y="63" text-anchor="middle" font-size="26">💎</text>
+      
+      <text x="95" y="52" fill="#b45309" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Cryptographic Carbon NFT Ledger &amp; Vision AI</text>
+      <text x="95" y="74" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Verra VCS Certified On-Chain Minting &amp; Computer Vision Recyclable Classifier</text>
+
+      <g transform="translate(30, 105)">
+        <rect width="500" height="125" rx="12" fill="#fef3c7" stroke="rgba(245, 158, 11, 0.2)"/>
+        <text x="20" y="30" fill="#b45309" font-family="Arial, sans-serif" font-size="14" font-weight="bold">💎 Verra Carbon NFT Minting</text>
+        <text x="20" y="55" fill="#475569" font-family="Arial, sans-serif" font-size="12">Cryptographic Hash: 0x7f9a8b1c4e2d3f0a...</text>
+        <text x="20" y="80" fill="#b45309" font-family="Arial, sans-serif" font-size="14" font-weight="bold">100.00 Credits Minted (Verified)</text>
+        <text x="20" y="105" fill="#047857" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✅ Immutable Double-Spend Proof</text>
+
+        <rect x="525" y="0" width="495" height="125" rx="12" fill="#f0fdf4" stroke="rgba(5, 150, 105, 0.2)"/>
+        <text x="545" y="30" fill="#047857" font-family="Arial, sans-serif" font-size="14" font-weight="bold">👁️ Computer Vision Waste Classifier</text>
+        <text x="545" y="55" fill="#475569" font-family="Arial, sans-serif" font-size="12">AI Camera scan classifies recyclables automatically</text>
+        <text x="545" y="80" fill="#059669" font-family="Arial, sans-serif" font-size="14" font-weight="bold">PET Plastic Bottle (98.4% Confidence)</text>
+        <text x="545" y="105" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">🎁 +15 GreenPoints Awarded</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(600, 1120)" text-anchor="middle">
+    <text fill="#64748b" font-family="Arial, sans-serif" font-size="15" font-weight="bold">
+      GreenScore Sustainability OS • Slide 04 of 05 • Swipe to see Tech Stack 👉
+    </text>
+  </g>
+</svg>

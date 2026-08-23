@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLight1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(5, 150, 105, 0.08)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="1200" rx="24" fill="url(#bgLight1)" stroke="rgba(5, 150, 105, 0.2)" stroke-width="3"/>
+
+  <!-- Header Section -->
+  <g transform="translate(60, 60)">
+    <!-- Brand Pill -->
+    <rect width="320" height="42" rx="21" fill="rgba(16, 185, 129, 0.12)" stroke="rgba(16, 185, 129, 0.3)"/>
+    <text x="160" y="27" text-anchor="middle" fill="#047857" font-family="Arial, sans-serif" font-size="15" font-weight="bold">🌱 GREENSCORE SUSTAINABILITY OS</text>
+
+    <!-- Slide Index Badge -->
+    <rect x="940" y="0" width="140" height="42" rx="21" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="1010" y="27" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="15" font-weight="bold">01 / 05 • OVERVIEW</text>
+
+    <!-- Main Title -->
+    <text x="0" y="115" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="bold">The Next-Gen Sustainability OS &amp; Ecosystem</text>
+    <text x="0" y="160" fill="#475569" font-family="Arial, sans-serif" font-size="20">A Unified 15-in-1 Platform Bridging IoT, Campus, Enterprise ESG &amp; Climate AI</text>
+  </g>
+
+  <!-- Central Score Showcase Card -->
+  <g transform="translate(60, 260)">
+    <rect width="1080" height="230" rx="20" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(16, 185, 129, 0.25)"/>
+    
+    <!-- Score Gauge Visual -->
+    <g transform="translate(60, 40)">
+      <circle cx="75" cy="75" r="65" fill="none" stroke="#e2e8f0" stroke-width="12"/>
+      <circle cx="75" cy="75" r="65" fill="none" stroke="#059669" stroke-width="12" stroke-dasharray="408" stroke-dashoffset="55" stroke-linecap="round" transform="rotate(-90 75 75)"/>
+      <text x="75" y="70" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="34" font-weight="bold">86.4</text>
+      <text x="75" y="98" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="14" font-weight="bold">GRADE A+ (OPTIMAL)</text>
+    </g>
+
+    <!-- Score Engine Description -->
+    <g transform="translate(250, 45)">
+      <text x="0" y="25" fill="#047857" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Dynamic Multi-Dimensional GreenScore Index</text>
+      <text x="0" y="58" fill="#475569" font-family="Arial, sans-serif" font-size="15">Weighted real-time aggregate scoring across 7 environmental dimensions:</text>
+      <text x="0" y="88" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">⚡ Energy (30%) • 💧 Water (20%) • ♻️ Waste (15%) • 🚗 Mobility (15%) • ☀️ Solar (10%) • 📄 Paper (5%) • 💨 AQI (5%)</text>
+      <rect x="0" y="110" width="770" height="34" rx="8" fill="rgba(16, 185, 129, 0.1)"/>
+      <text x="15" y="132" fill="#059669" font-family="Arial, sans-serif" font-size="13" font-weight="bold">✨ Real-time telemetry ingestion from physical ESP32 IoT sensors &amp; enterprise data feeds</text>
+    </g>
+  </g>
+
+  <!-- 4 Core Pillars Grid -->
+  <g transform="translate(60, 520)">
+    <!-- Pillar 1: Smart Home -->
+    <g transform="translate(0, 0)">
+      <rect width="250" height="260" rx="16" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(5, 150, 105, 0.15)"/>
+      <rect x="20" y="20" width="48" height="48" rx="12" fill="#f0fdf4"/>
+      <text x="44" y="52" text-anchor="middle" font-size="24">🏠</text>
+      <text x="20" y="100" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Smart Home IoT</text>
+      <text x="20" y="130" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Live solar inverter telemetry (4.8kW), smart AC load management &amp; AI energy nudges.</text>
+      <rect x="20" y="205" width="210" height="32" rx="6" fill="#f0fdf4"/>
+      <text x="125" y="226" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">18.2 kWh Generated</text>
+    </g>
+
+    <!-- Pillar 2: Campus Leaderboard -->
+    <g transform="translate(276, 0)">
+      <rect width="250" height="260" rx="16" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(8, 145, 178, 0.15)"/>
+      <rect x="20" y="20" width="48" height="48" rx="12" fill="#ecfeff"/>
+      <text x="44" y="52" text-anchor="middle" font-size="24">🎓</text>
+      <text x="20" y="100" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Campus Ranking</text>
+      <text x="20" y="130" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Inter-department sustainability leaderboards, paperless drives &amp; solar microgrids.</text>
+      <rect x="20" y="205" width="210" height="32" rx="6" fill="#ecfeff"/>
+      <text x="125" y="226" text-anchor="middle" fill="#0891b2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">CS Dept #1 (91.2 Pts)</text>
+    </g>
+
+    <!-- Pillar 3: Enterprise ESG -->
+    <g transform="translate(552, 0)">
+      <rect width="250" height="260" rx="16" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(5, 150, 105, 0.15)"/>
+      <rect x="20" y="20" width="48" height="48" rx="12" fill="#f0fdf4"/>
+      <text x="44" y="52" text-anchor="middle" font-size="24">🏢</text>
+      <text x="20" y="100" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Enterprise ESG</text>
+      <text x="20" y="130" fill="#64748b" font-family="Arial, sans-serif" font-size="13">GHG Protocol Scope 1, 2, 3 carbon accounting &amp; automated GRI / ISSB audit reporting.</text>
+      <rect x="20" y="205" width="210" height="32" rx="6" fill="#f0fdf4"/>
+      <text x="125" y="226" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">105.2 Tons Offset</text>
+    </g>
+
+    <!-- Pillar 4: Municipal City & NFT -->
+    <g transform="translate(828, 0)">
+      <rect width="250" height="260" rx="16" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(245, 158, 11, 0.15)"/>
+      <rect x="20" y="20" width="48" height="48" rx="12" fill="#fef3c7"/>
+      <text x="44" y="52" text-anchor="middle" font-size="24">🏙️</text>
+      <text x="20" y="100" fill="#0f172a" font-family="Arial, sans-serif" font-size="18" font-weight="bold">City Grid &amp; NFT</text>
+      <text x="20" y="130" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Citywide air quality AQI 42, 184 EV hubs &amp; Verra cryptographic carbon credit minting.</text>
+      <rect x="20" y="205" width="210" height="32" rx="6" fill="#fef3c7"/>
+      <text x="125" y="226" text-anchor="middle" fill="#b45309" font-family="Arial, sans-serif" font-size="12" font-weight="bold">0x7f9a... NFT Ledger</text>
+    </g>
+  </g>
+
+  <!-- Innovation Highlight Banner -->
+  <g transform="translate(60, 810)">
+    <rect width="1080" height="230" rx="20" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="35" y="45" fill="#059669" font-family="Arial, sans-serif" font-size="20" font-weight="bold">⚡ NEXT-GEN INNOVATION SUITE (15 MODULES)</text>
+    <line x1="35" y1="65" x2="1045" y2="65" stroke="rgba(0,0,0,0.06)"/>
+
+    <g transform="translate(35, 90)">
+      <!-- Module 1 -->
+      <rect x="0" y="0" width="320" height="110" rx="10" fill="#f0fdf4" stroke="rgba(5, 150, 105, 0.2)"/>
+      <text x="15" y="28" fill="#047857" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🔮 2030 Climate Scenario AI</text>
+      <text x="15" y="55" fill="#475569" font-family="Arial, sans-serif" font-size="12">Interactive Earth policy simulator</text>
+      <text x="15" y="80" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">+1.4°C Target • $1.4M Saved</text>
+
+      <!-- Module 2 -->
+      <rect x="345" y="0" width="320" height="110" rx="10" fill="#ecfeff" stroke="rgba(8, 145, 178, 0.2)"/>
+      <text x="360" y="28" fill="#0891b2" font-family="Arial, sans-serif" font-size="14" font-weight="bold">👁️ AR Spatial Thermal Scanner</text>
+      <text x="360" y="55" fill="#475569" font-family="Arial, sans-serif" font-size="12">HTML5 Canvas Thermal Gradient Stream</text>
+      <text x="360" y="80" fill="#0891b2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Instant AC Door Leak Detection</text>
+
+      <!-- Module 3 -->
+      <rect x="690" y="0" width="320" height="110" rx="10" fill="#fef3c7" stroke="rgba(245, 158, 11, 0.2)"/>
+      <text x="705" y="28" fill="#b45309" font-family="Arial, sans-serif" font-size="14" font-weight="bold">🎙️ Voice AI &amp; Dev API Sandbox</text>
+      <text x="705" y="55" fill="#475569" font-family="Arial, sans-serif" font-size="12">Hands-free speech synthesis + REST API</text>
+      <text x="705" y="80" fill="#b45309" font-family="Arial, sans-serif" font-size="12" font-weight="bold">gs_live_... Key &amp; Swagger Runner</text>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(600, 1120)" text-anchor="middle">
+    <text fill="#64748b" font-family="Arial, sans-serif" font-size="15" font-weight="bold">
+      GreenScore Sustainability OS • Built by Vijay Mahes • Swipe to explore modules 👉
+    </text>
+  </g>
+</svg>

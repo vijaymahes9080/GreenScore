@@ -81,7 +81,7 @@
 
       <!-- GRI Audit Banner -->
       <rect x="0" y="85" width="311" height="80" rx="8" fill="#ffffff" stroke="rgba(0,0,0,0.08)"/>
-      <text x="12" y="108" fill="#0f172a" font-family="Inter, sans-serif" font-size="12" font-weight="700">📄 GRI & ISSB Disclosure Statement</text>
+      <text x="12" y="108" fill="#0f172a" font-family="Inter, sans-serif" font-size="12" font-weight="700">📄 GRI &amp; ISSB Disclosure Statement</text>
       <text x="12" y="128" fill="#059669" font-family="Inter, sans-serif" font-size="11">Total Offset: 105.2 Tons CO2e | 450 KL Water</text>
       <text x="12" y="148" fill="#0891b2" font-family="Inter, sans-serif" font-size="11" font-weight="600">Status: Verified Corporate Audit</text>
     </g>
@@ -115,7 +115,7 @@
   <!-- Bottom Full Banner: Innovation Modules (Climate AI, AR Heatmap, Vision Classifier) -->
   <g transform="translate(40, 385)">
     <rect width="1120" height="240" rx="16" fill="#ffffff" filter="url(#softShadow)" stroke="rgba(0,0,0,0.06)"/>
-    <text x="30" y="38" fill="#059669" font-family="Inter, sans-serif" font-size="18" font-weight="800">🔮 NEXT-GEN INNOVATION MODULES & AI ENGINE</text>
+    <text x="30" y="38" fill="#059669" font-family="Inter, sans-serif" font-size="18" font-weight="800">🔮 NEXT-GEN INNOVATION MODULES &amp; AI ENGINE</text>
     <line x1="30" y1="52" x2="1090" y2="52" stroke="rgba(0,0,0,0.06)"/>
 
     <g transform="translate(30, 75)">
@@ -135,17 +135,17 @@
 
       <!-- Box 3: Dev API & Voice AI -->
       <rect x="720" y="0" width="340" height="135" rx="10" fill="#fef3c7" stroke="rgba(245,158,11,0.2)"/>
-      <text x="740" y="30" fill="#b45309" font-family="Inter, sans-serif" font-size="14" font-weight="700">📡 Dev API & Voice AI Control</text>
+      <text x="740" y="30" fill="#b45309" font-family="Inter, sans-serif" font-size="14" font-weight="700">📡 Dev API &amp; Voice AI Control</text>
       <text x="740" y="55" fill="#475569" font-family="Inter, sans-serif" font-size="12">API Key: gs_live_98f41a2b7e</text>
-      <text x="740" y="80" fill="#b45309" font-family="Inter, sans-serif" font-size="13" font-weight="800">Swagger Runner & Webhook Gateway</text>
-      <text x="740" y="105" fill="#047857" font-family="Inter, sans-serif" font-size="12">Voice Commands & Vision Waste Classifier</text>
+      <text x="740" y="80" fill="#b45309" font-family="Inter, sans-serif" font-size="13" font-weight="800">Swagger Runner &amp; Webhook Gateway</text>
+      <text x="740" y="105" fill="#047857" font-family="Inter, sans-serif" font-size="12">Voice Commands &amp; Vision Waste Classifier</text>
     </g>
   </g>
 
   <!-- Author Footer -->
   <g transform="translate(600, 650)" text-anchor="middle">
     <text fill="#64748b" font-family="Inter, sans-serif" font-size="12">
-      GreenScore Sustainability OS Light Theme Showcase • Built for MCA Capstone & Enterprise ESG • Author: Vijay Mahes (Vijaypradhap2004@gmail.com)
+      GreenScore Sustainability OS Light Theme Showcase • Built for MCA Capstone &amp; Enterprise ESG • Author: Vijay Mahes (Vijaypradhap2004@gmail.com)
     </text>
   </g>
 </svg>

@@ -52,7 +52,7 @@
     <rect width="150" height="110" rx="10" fill="url(#cardGrad)" stroke="rgba(16,185,129,0.3)"/>
     <text x="75" y="30" text-anchor="middle" fill="#34d399" font-family="Inter, sans-serif" font-size="22">🏠</text>
     <text x="75" y="52" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="13" font-weight="700">SMART HOME</text>
-    <text x="75" y="70" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10">Solar & AC IoT</text>
+    <text x="75" y="70" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10">Solar &amp; AC IoT</text>
     <text x="75" y="88" text-anchor="middle" fill="#34d399" font-family="Inter, sans-serif" font-size="10" font-weight="600">Live Telemetry</text>
   </g>
 
@@ -80,7 +80,7 @@
     <text x="75" y="30" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="22">🏙️</text>
     <text x="75" y="52" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="13" font-weight="700">CITY MUNICIPAL</text>
     <text x="75" y="70" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10">78.4 / 100 Index</text>
-    <text x="75" y="88" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="10" font-weight="600">AQI 42 & EV Grid</text>
+    <text x="75" y="88" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="10" font-weight="600">AQI 42 &amp; EV Grid</text>
   </g>
 
   <!-- 5. Carbon Credit NFT -->
@@ -96,14 +96,14 @@
   <g transform="translate(500, 345)" text-anchor="middle">
     <rect x="-440" y="-18" width="880" height="34" rx="8" fill="rgba(16,185,129,0.08)" stroke="rgba(16,185,129,0.25)"/>
     <text y="4" fill="#34d399" font-family="Inter, sans-serif" font-size="12" font-weight="700">
-      🧠 AI & SENSING LAYER: 2030 Climate Earth AI • AR Spatial Thermal Heatmap • Vision Waste Classifier • Developer API • Voice Control
+      🧠 AI &amp; SENSING LAYER: 2030 Climate Earth AI • AR Spatial Thermal Heatmap • Vision Waste Classifier • Developer API • Voice Control
     </text>
   </g>
 
   <!-- Footer Banner -->
   <g transform="translate(500, 480)" text-anchor="middle">
     <text fill="#64748b" font-family="Inter, sans-serif" font-size="12">
-      Designed for MCA Capstone Project & Enterprise ESG Infrastructure • Author: Vijay Mahes (Vijaypradhap2004@gmail.com)
+      Designed for MCA Capstone Project &amp; Enterprise ESG Infrastructure • Author: Vijay Mahes (Vijaypradhap2004@gmail.com)
     </text>
   </g>
 </svg>

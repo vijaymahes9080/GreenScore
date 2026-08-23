@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLight3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="rgba(5, 150, 105, 0.08)"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="1200" rx="24" fill="url(#bgLight3)" stroke="rgba(5, 150, 105, 0.2)" stroke-width="3"/>
+
+  <!-- Header -->
+  <g transform="translate(60, 60)">
+    <rect width="320" height="42" rx="21" fill="rgba(8, 145, 178, 0.12)" stroke="rgba(8, 145, 178, 0.3)"/>
+    <text x="160" y="27" text-anchor="middle" fill="#0891b2" font-family="Arial, sans-serif" font-size="15" font-weight="bold">🏢 ENTERPRISE ESG DECARBONIZATION</text>
+
+    <rect x="940" y="0" width="140" height="42" rx="21" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="1010" y="27" text-anchor="middle" fill="#0891b2" font-family="Arial, sans-serif" font-size="15" font-weight="bold">03 / 05 • ESG AUDIT</text>
+
+    <text x="0" y="115" fill="#0f172a" font-family="Arial, sans-serif" font-size="44" font-weight="bold">GHG Protocol Scope 1, 2, 3 &amp; Automated Audit</text>
+    <text x="0" y="160" fill="#475569" font-family="Arial, sans-serif" font-size="20">Corporate carbon accounting compliant with GRI, ISSB and CSRD frameworks</text>
+  </g>
+
+  <!-- 3 Scope Breakdown Cards -->
+  <g transform="translate(60, 260)">
+    <!-- Scope 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="340" height="260" rx="18" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(5, 150, 105, 0.2)"/>
+      <rect x="25" y="25" width="45" height="45" rx="10" fill="#f0fdf4"/>
+      <text x="47" y="54" text-anchor="middle" font-size="22">🏭</text>
+      <text x="85" y="45" fill="#047857" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Scope 1 (Direct)</text>
+      <text x="85" y="66" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Fleet &amp; On-Site Combustion</text>
+      <line x1="25" y1="85" x2="315" y2="85" stroke="rgba(0,0,0,0.06)"/>
+
+      <text x="25" y="130" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Carbon Emission:</text>
+      <text x="315" y="130" text-anchor="end" fill="#059669" font-family="Arial, sans-serif" font-size="24" font-weight="bold">14.2 Tons CO2e</text>
+
+      <text x="25" y="170" fill="#64748b" font-family="Arial, sans-serif" font-size="14">YoY Reduction:</text>
+      <text x="315" y="170" text-anchor="end" fill="#047857" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📉 -12.4% Cut</text>
+
+      <rect x="25" y="200" width="290" height="38" rx="8" fill="#f0fdf4"/>
+      <text x="170" y="224" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Target: Net-Zero by 2030</text>
+    </g>
+
+    <!-- Scope 2 -->
+    <g transform="translate(370, 0)">
+      <rect width="340" height="260" rx="18" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(8, 145, 178, 0.2)"/>
+      <rect x="25" y="25" width="45" height="45" rx="10" fill="#ecfeff"/>
+      <text x="47" y="54" text-anchor="middle" font-size="22">⚡</text>
+      <text x="85" y="45" fill="#0891b2" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Scope 2 (Electricity)</text>
+      <text x="85" y="66" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Purchased Power &amp; Cooling</text>
+      <line x1="25" y1="85" x2="315" y2="85" stroke="rgba(0,0,0,0.06)"/>
+
+      <text x="25" y="130" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Carbon Emission:</text>
+      <text x="315" y="130" text-anchor="end" fill="#0891b2" font-family="Arial, sans-serif" font-size="24" font-weight="bold">38.6 Tons CO2e</text>
+
+      <text x="25" y="170" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Renewable Share:</text>
+      <text x="315" y="170" text-anchor="end" fill="#0891b2" font-family="Arial, sans-serif" font-size="16" font-weight="bold">☀️ 64% Green Power</text>
+
+      <rect x="25" y="200" width="290" height="38" rx="8" fill="#ecfeff"/>
+      <text x="170" y="224" text-anchor="middle" fill="#0891b2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">100% PPA Agreement In Place</text>
+    </g>
+
+    <!-- Scope 3 -->
+    <g transform="translate(740, 0)">
+      <rect width="340" height="260" rx="18" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(245, 158, 11, 0.2)"/>
+      <rect x="25" y="25" width="45" height="45" rx="10" fill="#fef3c7"/>
+      <text x="47" y="54" text-anchor="middle" font-size="22">📦</text>
+      <text x="85" y="45" fill="#b45309" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Scope 3 (Supply Chain)</text>
+      <text x="85" y="66" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Procurement &amp; Business Travel</text>
+      <line x1="25" y1="85" x2="315" y2="85" stroke="rgba(0,0,0,0.06)"/>
+
+      <text x="25" y="130" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Carbon Emission:</text>
+      <text x="315" y="130" text-anchor="end" fill="#b45309" font-family="Arial, sans-serif" font-size="24" font-weight="bold">52.4 Tons CO2e</text>
+
+      <text x="25" y="170" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Vendor Compliance:</text>
+      <text x="315" y="170" text-anchor="end" fill="#b45309" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📋 88% Audited</text>
+
+      <rect x="25" y="200" width="290" height="38" rx="8" fill="#fef3c7"/>
+      <text x="170" y="224" text-anchor="middle" fill="#b45309" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Tier-1 Supply Decarbonization</text>
+    </g>
+  </g>
+
+  <!-- Automated ESG Disclosure Audit Section -->
+  <g transform="translate(60, 560)">
+    <rect width="1080" height="480" rx="20" fill="#ffffff" filter="url(#cardShadow)" stroke="rgba(8, 145, 178, 0.25)"/>
+
+    <g transform="translate(45, 40)">
+      <text x="0" y="25" fill="#0891b2" font-family="Arial, sans-serif" font-size="22" font-weight="bold">📄 Automated GRI &amp; ISSB Audit Disclosure Engine</text>
+      <text x="0" y="55" fill="#475569" font-family="Arial, sans-serif" font-size="15">Instant one-click corporate sustainability report generator producing certified audit manifests</text>
+
+      <g transform="translate(0, 85)">
+        <!-- Left Panel: Audit Manifest -->
+        <rect width="470" height="280" rx="14" fill="#f8fafc" stroke="rgba(0,0,0,0.08)"/>
+        <text x="20" y="35" fill="#0f172a" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Corporate Disclosure Summary</text>
+        <line x1="20" y1="50" x2="450" y2="50" stroke="rgba(0,0,0,0.06)"/>
+
+        <text x="20" y="85" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Reporting Organization:</text>
+        <text x="450" y="85" text-anchor="end" fill="#0f172a" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Apex Global Technologies Ltd</text>
+
+        <text x="20" y="125" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Reporting Standards:</text>
+        <text x="450" y="125" text-anchor="end" fill="#059669" font-family="Arial, sans-serif" font-size="13" font-weight="bold">GRI 302, 305 &amp; ISSB S2</text>
+
+        <text x="20" y="165" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Total Verified Offsets:</text>
+        <text x="450" y="165" text-anchor="end" fill="#0891b2" font-family="Arial, sans-serif" font-size="13" font-weight="bold">105.2 Tons CO2e</text>
+
+        <text x="20" y="205" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Cryptographic Audit Hash:</text>
+        <text x="450" y="205" text-anchor="end" fill="#b45309" font-family="Arial, sans-serif" font-size="13" font-weight="bold">0x8f2d...c94a</text>
+
+        <rect x="20" y="230" width="430" height="34" rx="8" fill="#f0fdf4"/>
+        <text x="235" y="252" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✅ Verified Ready for External Assurance</text>
+      </g>
+
+      <g transform="translate(510, 85)">
+        <!-- Right Panel: Department Decarbonization Ranking -->
+        <rect width="480" height="280" rx="14" fill="#f8fafc" stroke="rgba(0,0,0,0.08)"/>
+        <text x="20" y="35" fill="#0f172a" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Department Decarbonization Matrix</text>
+        <line x1="20" y1="50" x2="460" y2="50" stroke="rgba(0,0,0,0.06)"/>
+
+        <!-- Dept 1 -->
+        <text x="20" y="85" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">1. Engineering &amp; IT Labs</text>
+        <text x="460" y="85" text-anchor="end" fill="#059669" font-family="Arial, sans-serif" font-size="14" font-weight="bold">92.4 Score (Top)</text>
+        <rect x="20" y="98" width="440" height="8" rx="4" fill="#e2e8f0"/>
+        <rect x="20" y="98" width="406" height="8" rx="4" fill="#059669"/>
+
+        <!-- Dept 2 -->
+        <text x="20" y="140" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">2. Corporate HQ &amp; Operations</text>
+        <text x="460" y="140" text-anchor="end" fill="#0891b2" font-family="Arial, sans-serif" font-size="14" font-weight="bold">86.8 Score</text>
+        <rect x="20" y="153" width="440" height="8" rx="4" fill="#e2e8f0"/>
+        <rect x="20" y="153" width="382" height="8" rx="4" fill="#0891b2"/>
+
+        <!-- Dept 3 -->
+        <text x="20" y="195" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">3. Logistics &amp; Distribution</text>
+        <text x="460" y="195" text-anchor="end" fill="#b45309" font-family="Arial, sans-serif" font-size="14" font-weight="bold">78.2 Score</text>
+        <rect x="20" y="208" width="440" height="8" rx="4" fill="#e2e8f0"/>
+        <rect x="20" y="208" width="344" height="8" rx="4" fill="#b45309"/>
+
+        <rect x="20" y="232" width="440" height="32" rx="6" fill="#ecfeff"/>
+        <text x="240" y="253" text-anchor="middle" fill="#0891b2" font-family="Arial, sans-serif" font-size="12" font-weight="bold">📥 Export Options: JSON Disclosure • CSV • Printable PDF</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Footer -->
+  <g transform="translate(600, 1120)" text-anchor="middle">
+    <text fill="#64748b" font-family="Arial, sans-serif" font-size="15" font-weight="bold">
+      GreenScore Sustainability OS • Slide 03 of 05 • Swipe to see Climate AI &amp; AR 👉
+    </text>
+  </g>
+</svg>
