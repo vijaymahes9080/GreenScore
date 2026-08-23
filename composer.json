@@ -1,0 +1,12 @@
+{
+    "name": "vijaymahes/greenscore",
+    "description": "GreenScore application",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vijay Mahes",
+            "email": "Vijaypradhap2004@gmail.com"
+        }
+    ],
+    "require": {}
+}
