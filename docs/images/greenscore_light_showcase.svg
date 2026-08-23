@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lightBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fdf4"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <linearGradient id="emeraldBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="rgba(5, 150, 105, 0.08)"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="675" rx="20" fill="url(#lightBg)" stroke="rgba(5, 150, 105, 0.2)" stroke-width="2"/>
+
+  <!-- Top Header Bar -->
+  <g transform="translate(40, 30)">
+    <rect width="1120" height="65" rx="14" fill="#ffffff" filter="url(#softShadow)" stroke="rgba(0,0,0,0.06)"/>
+    
+    <!-- Brand -->
+    <text x="30" y="40" fill="#059669" font-family="Inter, sans-serif" font-size="22" font-weight="800">🌱 GREENCORE SUSTAINABILITY OS</text>
+    <text x="420" y="40" fill="#64748b" font-family="Inter, sans-serif" font-size="13" font-weight="600">v2.5 LIGHT THEME SHOWCASE</text>
+
+    <!-- Score Chip -->
+    <rect x="760" y="16" width="170" height="34" rx="8" fill="rgba(16,185,129,0.12)" stroke="rgba(16,185,129,0.3)"/>
+    <text x="845" y="38" text-anchor="middle" fill="#047857" font-family="Inter, sans-serif" font-size="14" font-weight="800">Score: 86.4 / 100 (A+)</text>
+
+    <!-- Theme Chip -->
+    <rect x="945" y="16" width="145" height="34" rx="8" fill="rgba(245,158,11,0.15)" stroke="rgba(245,158,11,0.3)"/>
+    <text x="1017" y="38" text-anchor="middle" fill="#b45309" font-family="Inter, sans-serif" font-size="13" font-weight="700">☀️ Light Mode</text>
+  </g>
+
+  <!-- Left Column: IoT Smart Home & Campus -->
+  <g transform="translate(40, 115)">
+    <!-- Smart Home Card -->
+    <rect width="360" height="250" rx="16" fill="#ffffff" filter="url(#softShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="24" y="36" fill="#047857" font-family="Inter, sans-serif" font-size="16" font-weight="700">🏠 Smart Home IoT Telemetry</text>
+    <line x1="24" y1="48" x2="336" y2="48" stroke="rgba(0,0,0,0.06)"/>
+
+    <g transform="translate(24, 65)">
+      <text x="0" y="20" fill="#475569" font-family="Inter, sans-serif" font-size="13">Solar Inverter Array:</text>
+      <text x="312" y="20" text-anchor="end" fill="#059669" font-family="Inter, sans-serif" font-size="15" font-weight="800">4.8 kW (18.2 kWh)</text>
+
+      <text x="0" y="55" fill="#475569" font-family="Inter, sans-serif" font-size="13">Living Room AC Load:</text>
+      <text x="312" y="55" text-anchor="end" fill="#0891b2" font-family="Inter, sans-serif" font-size="15" font-weight="800">1.4 kW (24°C Set)</text>
+
+      <text x="0" y="90" fill="#475569" font-family="Inter, sans-serif" font-size="13">Water Flow Sensor:</text>
+      <text x="312" y="90" text-anchor="end" fill="#047857" font-family="Inter, sans-serif" font-size="15" font-weight="800">4.2 L/min (Optimal)</text>
+
+      <!-- AI Banner -->
+      <rect x="0" y="115" width="312" height="50" rx="8" fill="rgba(245,158,11,0.12)" stroke="rgba(245,158,11,0.3)"/>
+      <text x="12" y="136" fill="#b45309" font-family="Inter, sans-serif" font-size="11" font-weight="700">🧠 AI Nudge: Raising AC temp 1°C saves 4.2 kWh</text>
+      <text x="12" y="152" fill="#059669" font-family="Inter, sans-serif" font-size="11" font-weight="600">GreenScore Impact: +2.4 pts boost</text>
+    </g>
+  </g>
+
+  <!-- Middle Column: Enterprise ESG & Campus Leaderboard -->
+  <g transform="translate(420, 115)">
+    <!-- Enterprise ESG Card -->
+    <rect width="360" height="250" rx="16" fill="#ffffff" filter="url(#softShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="24" y="36" fill="#0891b2" font-family="Inter, sans-serif" font-size="16" font-weight="700">🏢 Enterprise ESG Scope 1, 2, 3</text>
+    <line x1="24" y1="48" x2="336" y2="48" stroke="rgba(0,0,0,0.06)"/>
+
+    <g transform="translate(24, 65)">
+      <rect x="0" y="0" width="95" height="70" rx="8" fill="#f0fdf4" stroke="rgba(5,150,105,0.2)"/>
+      <text x="47" y="24" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="10">Scope 1</text>
+      <text x="47" y="48" text-anchor="middle" fill="#059669" font-family="Inter, sans-serif" font-size="15" font-weight="800">14.2 Tons</text>
+
+      <rect x="108" y="0" width="95" height="70" rx="8" fill="#ecfeff" stroke="rgba(8,145,178,0.2)"/>
+      <text x="155" y="24" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="10">Scope 2</text>
+      <text x="155" y="48" text-anchor="middle" fill="#0891b2" font-family="Inter, sans-serif" font-size="15" font-weight="800">38.6 Tons</text>
+
+      <rect x="216" y="0" width="95" height="70" rx="8" fill="#fef3c7" stroke="rgba(245,158,11,0.2)"/>
+      <text x="263" y="24" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="10">Scope 3</text>
+      <text x="263" y="48" text-anchor="middle" fill="#b45309" font-family="Inter, sans-serif" font-size="15" font-weight="800">52.4 Tons</text>
+
+      <!-- GRI Audit Banner -->
+      <rect x="0" y="85" width="311" height="80" rx="8" fill="#ffffff" stroke="rgba(0,0,0,0.08)"/>
+      <text x="12" y="108" fill="#0f172a" font-family="Inter, sans-serif" font-size="12" font-weight="700">📄 GRI & ISSB Disclosure Statement</text>
+      <text x="12" y="128" fill="#059669" font-family="Inter, sans-serif" font-size="11">Total Offset: 105.2 Tons CO2e | 450 KL Water</text>
+      <text x="12" y="148" fill="#0891b2" font-family="Inter, sans-serif" font-size="11" font-weight="600">Status: Verified Corporate Audit</text>
+    </g>
+  </g>
+
+  <!-- Right Column: City Municipal & Carbon Credit NFT -->
+  <g transform="translate(800, 115)">
+    <!-- City Card -->
+    <rect width="360" height="250" rx="16" fill="#ffffff" filter="url(#softShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="24" y="36" fill="#b45309" font-family="Inter, sans-serif" font-size="16" font-weight="700">🏙️ Municipal City Score 78.4</text>
+    <line x1="24" y1="48" x2="336" y2="48" stroke="rgba(0,0,0,0.06)"/>
+
+    <g transform="translate(24, 65)">
+      <text x="0" y="20" fill="#475569" font-family="Inter, sans-serif" font-size="13">Energy Grid (24% Solar):</text>
+      <text x="312" y="20" text-anchor="end" fill="#059669" font-family="Inter, sans-serif" font-size="14" font-weight="700">82 / 100</text>
+
+      <text x="0" y="50" fill="#475569" font-family="Inter, sans-serif" font-size="13">Water Conservation:</text>
+      <text x="312" y="50" text-anchor="end" fill="#0891b2" font-family="Inter, sans-serif" font-size="14" font-weight="700">74 / 100</text>
+
+      <text x="0" y="80" fill="#475569" font-family="Inter, sans-serif" font-size="13">Municipal Air Quality:</text>
+      <text x="312" y="80" text-anchor="end" fill="#059669" font-family="Inter, sans-serif" font-size="14" font-weight="800">AQI 42 (Good)</text>
+
+      <text x="0" y="110" fill="#475569" font-family="Inter, sans-serif" font-size="13">EV Fast Charging Network:</text>
+      <text x="312" y="110" text-anchor="end" fill="#b45309" font-family="Inter, sans-serif" font-size="14" font-weight="800">184 Active Hubs</text>
+
+      <rect x="0" y="130" width="312" height="35" rx="6" fill="rgba(5,150,105,0.1)"/>
+      <text x="156" y="152" text-anchor="middle" fill="#047857" font-family="Inter, sans-serif" font-size="12" font-weight="700">💎 Cryptographic Carbon NFT Hash: 0x7f9a8b1c...</text>
+    </g>
+  </g>
+
+  <!-- Bottom Full Banner: Innovation Modules (Climate AI, AR Heatmap, Vision Classifier) -->
+  <g transform="translate(40, 385)">
+    <rect width="1120" height="240" rx="16" fill="#ffffff" filter="url(#softShadow)" stroke="rgba(0,0,0,0.06)"/>
+    <text x="30" y="38" fill="#059669" font-family="Inter, sans-serif" font-size="18" font-weight="800">🔮 NEXT-GEN INNOVATION MODULES & AI ENGINE</text>
+    <line x1="30" y1="52" x2="1090" y2="52" stroke="rgba(0,0,0,0.06)"/>
+
+    <g transform="translate(30, 75)">
+      <!-- Box 1: 2030 Climate Earth AI -->
+      <rect x="0" y="0" width="340" height="135" rx="10" fill="#f0fdf4" stroke="rgba(5,150,105,0.2)"/>
+      <text x="20" y="30" fill="#047857" font-family="Inter, sans-serif" font-size="14" font-weight="700">🔮 2030 Climate Scenario AI</text>
+      <text x="20" y="55" fill="#475569" font-family="Inter, sans-serif" font-size="12">Renewable Share: 65% | EV Penetration: 50%</text>
+      <text x="20" y="80" fill="#059669" font-family="Inter, sans-serif" font-size="13" font-weight="800">Global Temp Anomaly: +1.4°C (Paris Compliant)</text>
+      <text x="20" y="105" fill="#b45309" font-family="Inter, sans-serif" font-size="12">Economic Savings: $1.4M / Year</text>
+
+      <!-- Box 2: AR Spatial Thermal Heatmap -->
+      <rect x="360" y="0" width="340" height="135" rx="10" fill="#ecfeff" stroke="rgba(8,145,178,0.2)"/>
+      <text x="380" y="30" fill="#0891b2" font-family="Inter, sans-serif" font-size="14" font-weight="700">👁️ AR Spatial Thermal Scanner</text>
+      <text x="380" y="55" fill="#475569" font-family="Inter, sans-serif" font-size="12">HTML5 Canvas Thermal Gradient Stream</text>
+      <text x="380" y="80" fill="#0891b2" font-family="Inter, sans-serif" font-size="13" font-weight="800">Door Seal AC Leak Detected (-4.2 kWh)</text>
+      <text x="380" y="105" fill="#059669" font-family="Inter, sans-serif" font-size="12">Solar Rooftop Hotspot: 98% Optimal</text>
+
+      <!-- Box 3: Dev API & Voice AI -->
+      <rect x="720" y="0" width="340" height="135" rx="10" fill="#fef3c7" stroke="rgba(245,158,11,0.2)"/>
+      <text x="740" y="30" fill="#b45309" font-family="Inter, sans-serif" font-size="14" font-weight="700">📡 Dev API & Voice AI Control</text>
+      <text x="740" y="55" fill="#475569" font-family="Inter, sans-serif" font-size="12">API Key: gs_live_98f41a2b7e</text>
+      <text x="740" y="80" fill="#b45309" font-family="Inter, sans-serif" font-size="13" font-weight="800">Swagger Runner & Webhook Gateway</text>
+      <text x="740" y="105" fill="#047857" font-family="Inter, sans-serif" font-size="12">Voice Commands & Vision Waste Classifier</text>
+    </g>
+  </g>
+
+  <!-- Author Footer -->
+  <g transform="translate(600, 650)" text-anchor="middle">
+    <text fill="#64748b" font-family="Inter, sans-serif" font-size="12">
+      GreenScore Sustainability OS Light Theme Showcase • Built for MCA Capstone & Enterprise ESG • Author: Vijay Mahes (Vijaypradhap2004@gmail.com)
+    </text>
+  </g>
+</svg>

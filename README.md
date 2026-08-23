@@ -5,9 +5,15 @@
 [![Author: Vijay Mahes](https://img.shields.io/badge/Author-Vijay%20Mahes-amber.svg)](https://github.com/vijaymahes9080)
 [![Version: 2.5 Next-Gen](https://img.shields.io/badge/Version-2.5%20Next--Gen-10b981.svg)](https://github.com/vijaymahes9080/GreenScore)
 [![Theme: Dual Light/Dark](https://img.shields.io/badge/Theme-Dual%20Light%2FDark-84cc16.svg)](https://github.com/vijaymahes9080/GreenScore)
-[![Commits: 10 Commits](https://img.shields.io/badge/GitHub%20Activity-10%20Commits-06b6d4.svg)](https://github.com/vijaymahes9080/GreenScore)
+[![Commits: 10+ Commits](https://img.shields.io/badge/GitHub%20Activity-10%2B%20Commits-06b6d4.svg)](https://github.com/vijaymahes9080/GreenScore)
 
 **GreenScore** is an enterprise-grade **Sustainability OS** that transforms personal environmental tracking into a comprehensive, multi-tiered ecosystem spanning **IoT Smart Home Automation**, **University Campus Rankings**, **Corporate ESG Reporting**, **Municipal City Dashboards**, **Cryptographic Carbon Credit NFT Ledgers**, **2030 Climate AI Simulators**, **Spatial Thermal AR Heatmaps**, **Developer API Sandboxes**, **Voice AI Command Centers**, and **Dual Light/Dark Theme Styling**.
+
+---
+
+## 🖼️ Visual Showcase & Light Theme UI
+
+![GreenScore Light Theme Ecosystem Showcase](docs/images/greenscore_light_showcase.svg)
 
 ---
 
@@ -73,7 +79,7 @@
 - **Computer Vision Waste Classifier**: Scans waste images to classify recyclables and award points.
 - **Predictive Forecasting**: 30-day energy draw and carbon footprint projections.
 
-### 💎 10. Cryptographic Carbon Credit NFT Ledger
+### 2. Cryptographic Carbon Credit NFT Ledger
 - Verra VCS & Gold Standard certified carbon credit minting with cryptographic audit hashes (`0x7f9a...`).
 
 ### 🔮 11. 2030 Climate Scenario AI Engine
