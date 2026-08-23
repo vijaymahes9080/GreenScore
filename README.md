@@ -13,13 +13,13 @@
 
 ## 🖼️ Visual Showcase & Light Theme UI
 
-![GreenScore Light Theme Ecosystem Showcase](docs/images/greenscore_light_showcase.svg)
+![GreenScore Light Theme Ecosystem Showcase](https://raw.githubusercontent.com/vijaymahes9080/GreenScore/main/docs/images/greenscore_light_showcase.svg)
 
 ---
 
 ## 🏛️ Ecosystem Architecture
 
-![GreenScore Ecosystem Architecture](docs/images/greenscore_architecture.svg)
+![GreenScore Ecosystem Architecture](https://raw.githubusercontent.com/vijaymahes9080/GreenScore/main/docs/images/greenscore_architecture.svg)
 
 ```text
                                   🌍 GREENCORE SUSTAINABILITY OS
@@ -79,7 +79,7 @@
 - **Computer Vision Waste Classifier**: Scans waste images to classify recyclables and award points.
 - **Predictive Forecasting**: 30-day energy draw and carbon footprint projections.
 
-### 2. Cryptographic Carbon Credit NFT Ledger
+### 💎 10. Cryptographic Carbon Credit NFT Ledger
 - Verra VCS & Gold Standard certified carbon credit minting with cryptographic audit hashes (`0x7f9a...`).
 
 ### 🔮 11. 2030 Climate Scenario AI Engine
