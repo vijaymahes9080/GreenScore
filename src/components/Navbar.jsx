@@ -2,11 +2,11 @@ import React from 'react';
 import { 
   Leaf, Home, GraduationCap, Building2, Landmark, 
   FileText, Cpu, Award, ShoppingBag, Bot, Zap, Sparkles,
-  ShieldCheck, Sun, Flame, Camera, Code, Volume2
+  ShieldCheck, Sun, Moon, Flame, Camera, Code, Volume2
 } from 'lucide-react';
 import { getGradeFromScore } from '../services/scoringEngine';
 
-export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoints, userName }) {
+export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoints, userName, theme, toggleTheme }) {
   const gradeInfo = getGradeFromScore(currentScore);
 
   const tabs = [
@@ -48,7 +48,7 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
                   GREENCORE
                 </h1>
                 <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
-                  Sustainability OS v2.5 (Next-Gen)
+                  Sustainability OS v2.5
                 </span>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                 <Zap style={{ width: '16px', height: '16px', color: 'var(--emerald-light)' }} />
                 <span style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>Score:</span>
-                <span style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '1.1rem', color: '#fff' }}>
+                <span style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '1.1rem', color: 'var(--text-primary)' }}>
                   {currentScore}
                 </span>
                 <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>/ 100</span>
@@ -69,8 +69,18 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
             </div>
           </div>
 
-          {/* User Profile Chip */}
+          {/* User Profile & Light/Dark Theme Switcher */}
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+            <button 
+              onClick={toggleTheme}
+              className="btn-secondary"
+              style={{ padding: '0.45rem 0.75rem', fontSize: '0.8rem' }}
+              title="Toggle Light / Dark Theme"
+            >
+              {theme === 'dark' ? <Sun style={{ width: '16px', height: '16px', color: 'var(--amber-accent)' }} /> : <Moon style={{ width: '16px', height: '16px', color: 'var(--cyan-accent)' }} />}
+              <span>{theme === 'dark' ? 'Light Theme' : 'Dark Theme'}</span>
+            </button>
+
             <div className="glass-panel" style={{ padding: '0.4rem 0.85rem', display: 'flex', alignItems: 'center', gap: '0.6rem', borderRadius: '10px' }}>
               <Award style={{ width: '18px', height: '18px', color: 'var(--amber-accent)' }} />
               <span style={{ fontSize: '0.85rem', fontWeight: 600, color: 'var(--amber-accent)' }}>
@@ -81,7 +91,7 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
               <div style={{ 
                 width: '36px', height: '36px', borderRadius: '50%', 
-                background: 'rgba(255, 255, 255, 0.1)', border: '1px solid var(--border-glow)',
+                background: 'rgba(16, 185, 129, 0.15)', border: '1px solid var(--border-glow)',
                 display: 'flex', alignItems: 'center', justifyContent: 'center',
                 fontWeight: 700, fontSize: '0.9rem', color: 'var(--emerald-light)'
               }}>

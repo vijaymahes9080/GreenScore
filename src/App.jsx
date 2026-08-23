@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import SmartHomeModule from './components/SmartHomeModule';
 import CampusModule from './components/CampusModule';
@@ -21,7 +21,16 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('smart-home');
   const [currentScore, setCurrentScore] = useState(86.4);
   const [greenPoints, setGreenPoints] = useState(340);
+  const [theme, setTheme] = useState('dark');
   const userName = "Vijay Mahes";
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => prev === 'dark' ? 'light' : 'dark');
+  };
 
   const handleScoreUpdate = (delta) => {
     setCurrentScore(prev => Math.min(99.9, Math.max(10, Math.round((prev + delta) * 10) / 10)));
@@ -40,6 +49,8 @@ export default function App() {
         currentScore={currentScore}
         greenPoints={greenPoints}
         userName={userName}
+        theme={theme}
+        toggleTheme={toggleTheme}
       />
 
       {/* Main View Module Switcher */}
