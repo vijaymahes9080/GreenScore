@@ -1,7 +1,8 @@
 import React from 'react';
 import { 
   Leaf, Home, GraduationCap, Building2, Landmark, 
-  FileText, Cpu, Award, ShoppingBag, Bot, Zap, Sparkles
+  FileText, Cpu, Award, ShoppingBag, Bot, Zap, Sparkles,
+  ShieldCheck, Sun, Flame, Camera, Code, Volume2
 } from 'lucide-react';
 import { getGradeFromScore } from '../services/scoringEngine';
 
@@ -17,7 +18,13 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
     { id: 'iot-network', label: 'IoT Live Stream', icon: Cpu },
     { id: 'rewards', label: 'Rewards', icon: Award },
     { id: 'marketplace', label: 'Marketplace', icon: ShoppingBag },
-    { id: 'ai-engine', label: 'GreenScore AI', icon: Bot, highlight: true }
+    { id: 'ai-engine', label: 'GreenScore AI', icon: Bot, highlight: true },
+    { id: 'carbon-credit', label: 'Carbon NFT', icon: ShieldCheck, highlight: true },
+    { id: 'climate-2030', label: '2030 Earth AI', icon: Sun },
+    { id: 'p2p-arena', label: 'Eco Arena', icon: Flame },
+    { id: 'ar-heatmap', label: 'AR Heatmap', icon: Camera },
+    { id: 'dev-api', label: 'Dev API', icon: Code },
+    { id: 'voice-ai', label: 'Voice AI', icon: Volume2 }
   ];
 
   return (
@@ -41,7 +48,7 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
                   GREENCORE
                 </h1>
                 <span style={{ fontSize: '0.72rem', color: 'var(--text-muted)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
-                  Sustainability OS v2.4
+                  Sustainability OS v2.5 (Next-Gen)
                 </span>
               </div>
             </div>
@@ -50,7 +57,7 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
             <div className="glass-panel" style={{ padding: '0.4rem 0.85rem', display: 'flex', alignItems: 'center', gap: '0.75rem', borderRadius: '10px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
                 <Zap style={{ width: '16px', height: '16px', color: 'var(--emerald-light)' }} />
-                <span style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>Ecosystem Score:</span>
+                <span style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>Score:</span>
                 <span style={{ fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: '1.1rem', color: '#fff' }}>
                   {currentScore}
                 </span>
@@ -79,12 +86,6 @@ export default function Navbar({ activeTab, setActiveTab, currentScore, greenPoi
                 fontWeight: 700, fontSize: '0.9rem', color: 'var(--emerald-light)'
               }}>
                 {userName.charAt(0)}
-              </div>
-              <div style={{ display: 'none', flexColumn: true, '@media (min-width: 640px)': { display: 'block' } }}>
-                <div style={{ fontSize: '0.85rem', fontWeight: 600 }}>{userName}</div>
-                <div style={{ fontSize: '0.7rem', color: 'var(--emerald-light)', display: 'flex', alignItems: 'center', gap: '4px' }}>
-                  <span className="pulse-dot"></span> Eco-Master
-                </div>
               </div>
             </div>
           </div>

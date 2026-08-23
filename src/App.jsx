@@ -9,7 +9,13 @@ import IoTNetworkModule from './components/IoTNetworkModule';
 import RewardsModule from './components/RewardsModule';
 import MarketplaceModule from './components/MarketplaceModule';
 import AIIntelligenceModule from './components/AIIntelligenceModule';
-import { Leaf, ShieldCheck, Heart, Github } from 'lucide-react';
+import CarbonCreditModule from './components/CarbonCreditModule';
+import ClimateScenarioModule from './components/ClimateScenarioModule';
+import SocialArenaModule from './components/SocialArenaModule';
+import ARSpatialHeatmapModule from './components/ARSpatialHeatmapModule';
+import APIDeveloperModule from './components/APIDeveloperModule';
+import VoiceAssistantModule from './components/VoiceAssistantModule';
+import { Leaf } from 'lucide-react';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('smart-home');
@@ -47,6 +53,14 @@ export default function App() {
         {activeTab === 'rewards' && <RewardsModule greenPoints={greenPoints} onAddPoints={handleAddPoints} />}
         {activeTab === 'marketplace' && <MarketplaceModule currentScore={currentScore} onScoreUpdate={handleScoreUpdate} />}
         {activeTab === 'ai-engine' && <AIIntelligenceModule currentScore={currentScore} onAddPoints={handleAddPoints} />}
+        
+        {/* Next-Gen Innovation Modules */}
+        {activeTab === 'carbon-credit' && <CarbonCreditModule />}
+        {activeTab === 'climate-2030' && <ClimateScenarioModule />}
+        {activeTab === 'p2p-arena' && <SocialArenaModule />}
+        {activeTab === 'ar-heatmap' && <ARSpatialHeatmapModule />}
+        {activeTab === 'dev-api' && <APIDeveloperModule />}
+        {activeTab === 'voice-ai' && <VoiceAssistantModule />}
       </main>
 
       {/* Modern Ecosystem Footer */}
@@ -54,11 +68,11 @@ export default function App() {
         <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', fontSize: '0.85rem', color: 'var(--text-muted)' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
             <Leaf style={{ color: 'var(--emerald-light)', width: '18px', height: '18px' }} />
-            <span>GreenScore Sustainability OS • Full Ecosystem Architecture</span>
+            <span>GreenScore Sustainability OS v2.5 • Innovation Ecosystem</span>
           </div>
 
           <div>
-            Built for MCA Capstone Project & Enterprise ESG Platform • Author: <strong>Vijay Mahes</strong>
+            Built for MCA Capstone & Enterprise ESG • Author: <strong>Vijay Mahes</strong>
           </div>
         </div>
       </footer>
