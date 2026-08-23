@@ -13,6 +13,8 @@
 
 ## 🏛️ Ecosystem Architecture
 
+![GreenScore Ecosystem Architecture](docs/images/greenscore_architecture.svg)
+
 ```text
                                   🌍 GREENCORE SUSTAINABILITY OS
                                                 │
